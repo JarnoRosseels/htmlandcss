@@ -201,12 +201,15 @@ html{                                                              /*Code van Ch
   margin: 20px 0;             /* Geeft wat ruimte boven en onder */
 }
 
-.widget {
+.widget { 
   margin-bottom: 1.5rem;
 }
 
 .widget:last-child {    /*PROBEER DIT TE OPTIMALISEREN, ZODAT DIT AUTOMATISCH VAN ONDER AAN PERSONALDETAILS KOMT*/
-  margin-top: 550px;
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+ margin-bottom: 0px;
 }
 
 .widget h4 {
