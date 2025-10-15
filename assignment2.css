@@ -68,8 +68,9 @@ body {
     
     grid-template-areas:
       "header  header  header  header"
-      "nav     main    sidebar ads"
-      "nav     main    sidebar ads"
+      "nav     main    main    sidebar"
+      "nav     main    main    sidebar"
+      "ads     ads     ads     sidebar"
       "footer  footer  footer  footer";
   }
 }
